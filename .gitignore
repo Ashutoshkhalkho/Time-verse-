@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env*.local
+
+# Environment variables & secrets (NEVER COMMIT)
+.env
+*.env
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Database & local storage
+*.sqlite
+*.sqlite3
+*.db
+data/backups/
+postgres_data/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts & package distributions
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node & Next.js artifacts
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+frontend/out/
+out/
+*.tsbuildinfo
+.pnp
+.pnp.js
+
+# IDEs & OS specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Antigravity / Agent runtime artifacts (keep scratch files out of git)
+scratch/
+extracted_raw_docs/

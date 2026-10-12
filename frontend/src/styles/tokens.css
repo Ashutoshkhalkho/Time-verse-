@@ -1,0 +1,33 @@
+/**
+ * TIMEWISE Design System Tokens
+ * Source: Kristu Jayanti University Portal Reference & Product Design Documentation
+ */
+:root {
+  /* Colors */
+  --color-primary: #1261A0;
+  --color-primary-hover: #0E4E82;
+  --color-navy: #17324D;
+  --color-pale-blue: #EAF3FB;
+  --color-bg-canvas: #F7F9FC;
+  --color-card-surface: #FFFFFF;
+  --color-text-main: #1F2937;
+  --color-text-secondary: #697586;
+  --color-border: #E2E7EE;
+  
+  /* Status Colors */
+  --color-success: #16805D;
+  --color-warning: #A96500;
+  --color-danger: #B42332;
+
+  /* Typography */
+  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Radius */
+  --radius-card: 14px;
+  --radius-btn: 10px;
+  --radius-badge: 6px;
+
+  /* Elevation */
+  --shadow-subtle: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow-card: 0 2px 8px 0 rgba(23, 50, 77, 0.06);
+}
